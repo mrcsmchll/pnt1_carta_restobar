@@ -4,16 +4,14 @@ header {
     text-align: center;
 }
 
+header h1{
+    font-size: 100px;
+}
 
 html,
 body {
     margin: 0;
     padding: 0;
-    
-
-
-
-
 
 }
 
@@ -25,7 +23,7 @@ body {
     line-height: 1.6;
 
 
-    background-image: url('imgs/fondo.jpeg');
+    background-image: url('imgs/fondo2.jpeg');
     background-size: cover;
     background-position: center;
    
@@ -60,7 +58,11 @@ body {
     margin: 20px;
     text-align: center;
     transition: all 0.255;
+
+    background-color: rgba(166, 166, 166, 0.123);
+    
 }
+
 
 .container .card:hover {
     transform: translateY(-15px);
@@ -80,11 +82,15 @@ body {
 
 .container .card p {
     padding: 0 1rem;
-    font-size 16px;
+    font-size: 16px;
     color: rgb(67, 67, 67);
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: black;
+
 }
 
 .footer{
+    margin-top: 10rem;
     padding: 30px 60rem;
     background: rgb(30, 30, 30);
     color: lightgrey;
