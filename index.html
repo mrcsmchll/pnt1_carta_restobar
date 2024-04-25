@@ -16,6 +16,44 @@
 
     <div id="banner">
         <header>
+            <div class="container">
+
+                <nav>
+                    <button onclick="mostrarForm('login')">Iniciar Sesión</button>
+                    <button onclick="mostrarForm('registro')">Registrarse</button>
+    
+                </nav>  
+            </div>
+            
+            
+
+<!-- oculto  -->
+
+<div>
+
+    <div class="formulario" id="formulario-login">
+        <h2>Iniciar Sesión</h2>
+        <form>
+          <!-- Campos de inicio de sesión -->
+          <input type="text" placeholder="Usuario" required>
+          <input type="password" placeholder="Contraseña" required>
+          <button type="submit">Iniciar Sesión</button>
+        </form>
+      </div>
+      
+      <div class="formulario" id="formulario-registro">
+        <h2>Registrarse</h2>
+        <form>
+          <!-- Campos de registro -->
+          <input type="text" placeholder="Nombre" required>
+          <input type="email" placeholder="Correo Electrónico" required>
+          <input type="password" placeholder="Contraseña" required>
+          <button type="submit">Registrarse</button>
+        </form>
+      </div>
+
+    
+</div>
             <h1>Carta Restó Bar</h1>
                 <td><a href="#entradas">Entradas |</a></td>
                 <td><a href="#principal">Platos Principales |</a></td>
@@ -125,6 +163,16 @@
         </footer>
     </div>
 
+
+
+
+
+   
+
+<script src="scripts.js"></script>
 </body>
+
+
 </html>
+
 
