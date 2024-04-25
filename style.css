@@ -29,6 +29,15 @@ body {
 
 }
 
+.formulario {
+    margin: 2rem;
+}
+
+.cerrar-img {
+    width: 20px;
+}
+
+
 
 .title {
     text-align: center;

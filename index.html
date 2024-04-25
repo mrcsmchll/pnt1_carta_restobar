@@ -30,14 +30,18 @@
 <!-- oculto  -->
 
 <div class="container-form">
-    <div id="cerrar"  style="display: none;">
-        <button  onclick="close()">x</button>
+
+    <div class="formulario" id="cerrar"  style="display: none;">
+
+        <button  onclick="cerrar()">
+            <img class="cerrar-img" src="./imgs/recursos/marca-de-la-cruz.png" alt="">
+        </button>
     </div>
    
        
     <div class="formulario" id="formulario-login" style="display: none;">
 
-        <h2>Iniciar Sesión</h2>
+       
         <form>
           <!-- Campos de inicio de sesión -->
           <input type="text" placeholder="Usuario" required>
@@ -47,7 +51,7 @@
       </div>
       
       <div class="formulario" id="formulario-registro"  style="display: none;">
-        <h2>Registrarse</h2>
+       
         <form>
           <!-- Campos de registro -->
           <input type="text" placeholder="Nombre" required>
