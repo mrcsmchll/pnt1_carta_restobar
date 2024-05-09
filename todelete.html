@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Carta Restó Bar</title>
+
+</head>
+<body class="body">
+
+    <div id="banner">
+        <header>
+            <div class="container">
+
+                <nav>
+                    <button onclick="mostrarForm('login')">Iniciar Sesión</button>
+                    <button onclick="mostrarForm('registro')">Registrarse</button>
+    
+                </nav>  
+            </div>
+            
+            
+
+<!-- oculto  -->
+
+<div class="container-form">
+
+    <div class="formulario" id="cerrar"  style="display: none;">
+
+        <button  onclick="cerrar()">
+            <img class="cerrar-img" src="./imgs/recursos/marca-de-la-cruz.png" alt="">
+        </button>
+    </div>
+   
+       
+    <div class="formulario" id="formulario-login" style="display: none;">
+
+       
+        <form>
+          <!-- Campos de inicio de sesión -->
+          <input type="text" placeholder="Usuario" required>
+          <input type="password" placeholder="Contraseña" required>
+          <button type="submit">Iniciar Sesión</button>
+        </form>
+      </div>
+      
+      <div class="formulario" id="formulario-registro"  style="display: none;">
+       
+        <form>
+          <!-- Campos de registro -->
+          <input type="text" placeholder="Nombre" required>
+          <input type="email" placeholder="Correo Electrónico" required>
+          <input type="password" placeholder="Contraseña" required>
+          <button type="submit">Registrarse</button>
+        </form>
+      </div>
+
+    
+</div>
+            <h1>Carta Restó Bar</h1>
+                <td><a href="#entradas">Entradas |</a></td>
+                <td><a href="#principal">Platos Principales |</a></td>
+                <td><a href="#postres">Postres</a></td>
+        <header>
+    </div>    
+
+
+  <!-- entrada -->
+  <h1 class="title">ENTRADA</h1>
+
+  <div class="container" id="entrada">
+
+      <div class="card">
+          <img src="imgs/rabas.jpeg" alt="rabas">
+          <h4>Rabas</h4>
+          <p>Calamares rebozados y fritos</p> 
+          <span>Precio:   $400</span>
+      </div>
+
+      <div class="card">
+          <img src="/imgs/aceitunas.jpeg" alt="aceitunas">
+          <h4>Aceitunas</h4>
+          <p>Aceitunas rebozadas y fritas.</p> 
+          <span>Precio:   $400</span>
+      </div>
+
+      <div class="card">
+          <img src="/imgs/milanesa.jpeg" alt="muzzarellas">
+          <h4>Muzzarella</h4>
+          <p>Queso muzzarella empanizado y frito.</p> 
+          <span>Precio:   $400</span>
+      </div>
+      
+      
+
+  </div>
+
+  <!-- principal-->
+  <h1 class="title">PRINCIPAL</h1>
+
+  <div class="container" id="principal">
+
+      <div class="card">
+          <img src="/imgs/bife.jpeg" alt="bife" >
+          <h4>Bife de chorizo con papas fritas</h4>
+          <p>Corte de carne a la parrilla con papas cortadas y fritas acompañando. Plato argentino tradicional.</p> 
+          <span>Precio:   $400</span>
+      </div>
+
+      <div class="card">
+          <img src="/imgs/empanada.jpeg" alt="empanada">
+          <h4>Empanadas</h4>
+          <p>
+            Masa rellena de carne, pollo, verduras, horneada o frita. Acompañada salsas.</p> 
+          <span>Precio:   $400</span>
+      </div>
+
+      <div class="card">
+          <img src="/imgs/pollo.jpeg" alt="milanesa">
+          <h4>Pechuga de Pollo</h4>
+          <p>Carne blanca de pollo, parte del pecho del animal.</p> 
+          <span>Precio:   $400</span>
+      </div>
+
+  </div>
+
+
+
+     <!-- postre -->
+    <h1 class="title">POSTRE</h1>
+
+    <div class="container" id="postres">
+
+        <div class="card">
+            <img src="/imgs/flan.jpeg" alt="flan">
+            <h4>Flan</h4>
+            <p>Postre cremoso hecho con huevos, leche, azúcar, caramelizado.</p> 
+            <span>Precio:   $400</span>
+        </div>
+
+        <div class="card">
+            <img src="/imgs/helado2.jpeg" alt="helado">
+            <h4>Helado</h4>
+            <p>Postre frío cremoso, hecho con leche, crema y saborizantes variados.</p> 
+            <span>Precio:   $400</span>
+        </div>
+    </div>
+
+
+    <section class="postres">
+        <h2 class="postres-titulo">POSTRES</h2>
+        <div class="postres-platos"> 
+            <article class="card postre">
+                <img class="plato-imagen" src="/imgs/flan.jpeg" alt="Flan - Postre cremoso hecho con huevos, leche, azúcar, caramelizado">
+                <h3 class="plato-titulo">Flan</h3>
+                <p class="plato-descripcion">Postre cremoso hecho con huevos, leche, azúcar, caramelizado.</p> 
+                <span class="plato-precio">$400</span>
+            </article>
+      
+            <article class="card postre">
+                <img class="plato-imagen" src="/imgs/helado2.jpeg" alt="Helado - Postre frío cremoso, hecho con leche, crema y saborizantes variados">
+                <h3 class="plato-titulo">Helado</h3>
+                <p class="plato-descripcion">Postre frío cremoso, hecho con leche, crema y saborizantes variados.</p> 
+                <span class="plato-precio">$400</span>
+            </article>
+        </div>
+    </section>
+    
+        
+      
+
+    <!-- footer  -->
+
+        <footer class="footer">
+            <p>Gracias por visitarnos.</p>
+                
+                <ul class="list-inline">
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                  
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>  
+                </ul>    
+        </footer>
+   
+</body>
+
+
+<script src="scripts.js"></script>
+
+</html>
+
+

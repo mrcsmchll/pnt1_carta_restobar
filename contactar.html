@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Come Rico</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./contactar.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Come Rico</h1>
+      <nav class="container-nav">
+        <ul class="container-links">
+          <li class="container-link">
+            <a clas="links-menu" href="./index.html">Home</a>
+          </li>
+          <li class="container-link">
+            <a clas="links-menu" href="#">Iniciar</a>
+          </li>
+          <li class="container-link">
+            <a clas="links-menu" href="#">Registrar</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container-form">
+      <h2>CONTACTAR CON NOSOTROS</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" />
+          <span id="nameError" class="error"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <span id="emailError" class="error"></span>
+        </div>
+        <div class="form-group">
+          <label for="phone">Teléfono:</label>
+          <input type="text" id="phone" name="phone" />
+          <input type="checkbox" id="addPhone" name="addPhone" />
+          <label for="addPhone">Agregar teléfono</label>
+        </div>
+        <div class="form-group">
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message"></textarea>
+          <span id="messageError" class="error"></span>
+        </div>
+        <button class="button-24" type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <p>Gracias por visitarnos.</p>
+      <ul class="list-inline">
+        <li>
+          <a href="#" title="Visita nuestro canal en YouTube"
+            ><i class="fa fa-youtube"></i> YouTube</a
+          >
+        </li>
+        <li>
+          <a href="#" title="Síguenos en Facebook"
+            ><i class="fa fa-facebook"></i> Facebook</a
+          >
+        </li>
+        <li>
+          <a href="#" title="Síguenos en Twitter"
+            ><i class="fa fa-twitter"></i> Twitter</a
+          >
+        </li>
+        <li>
+          <a href="#" title="Visita nuestro repositorio en GitHub"
+            ><i class="fa fa-github"></i> GitHub</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="scripts.js"></script>
+</html>
